@@ -2,7 +2,7 @@ import java.util.*;
 
 /** * Created by Paulo Vila Nova on 2017-04-18.
  */
-public class Test {
+public class PullApproach {
 
     private static ArrayList<String > data = new ArrayList<>();
 
