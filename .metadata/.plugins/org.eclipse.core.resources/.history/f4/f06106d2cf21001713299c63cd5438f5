@@ -1,0 +1,24 @@
+package tutorial;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+	
+	private static List<User> subscribedUsers = new ArrayList<>();
+
+	public static void main(String[] args) {
+		
+		User A = new User("A","a@a.com");
+	    User B = new User("B","b@a.com");
+	    User C = new User("C","c@a.com");
+	    User D = new User("D","d@a.com");
+	    
+	    subscribedUsers.add(A);
+	    subscribedUsers.add(C);
+	    subscribedUsers.add(D);
+	    
+
+	}
+
+}

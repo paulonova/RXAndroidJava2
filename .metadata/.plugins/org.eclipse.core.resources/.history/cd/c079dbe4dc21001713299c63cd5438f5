@@ -1,0 +1,14 @@
+package tutorial;
+
+public interface Observer {
+	
+	void register(Observable observer);
+
+	void unregister(Observable observer);
+	
+	// New tutorial published to inform all subscribed users
+	 void notifyAllAboutChange();
+    
+    
+
+}
