@@ -20,6 +20,10 @@ public class PushWithoutRX  {
         data.add("E");
         currentDateTime();
         data.add("F");
+        currentDateTime();
+        data.add("G");
+        currentDateTime();
+        data.add("H");
 
         data.unSubscribe(observer);
     }

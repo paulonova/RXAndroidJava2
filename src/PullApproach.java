@@ -8,11 +8,12 @@ public class PullApproach {
 
     public static void main(String[] args) throws InterruptedException {
 
-        currentDateTime();
+        //currentDateTime();
         data.add("A");
         data.add("B");
         data.add("C");
         data.add("D");
+
 //        Iterator<String > iterator = data.iterator();
 //        while (iterator.hasNext()){
 //            System.out.println(iterator.next());
@@ -29,7 +30,7 @@ public class PullApproach {
 
     }
 
-
+    //Get the current time and date
     private static void currentDateTime() {
         System.out.println(new Date(System.currentTimeMillis()).toString());
     }
