@@ -17,7 +17,7 @@ public class Tutorial {
     }
 
     public void publish(){
-        REGISTER_FOR_SUBSCRIPTION.publish();
+        REGISTER_FOR_SUBSCRIPTION.publish();  //publish() is from RX lib.
     }
 
 

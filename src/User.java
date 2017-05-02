@@ -22,7 +22,7 @@ public class User implements Action1 {
 
 
     public static void sendEmail(User user){
-        System.out.println("Email send: "+user.getName());
+        System.out.println("Email send: "+ user.getName());
     }
 
     public String getName() {

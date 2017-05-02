@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /** * Created by Paulo Vila Nova on 2017-04-18.
  */
@@ -12,7 +9,7 @@ public class PushWithoutRX  {
     public static void main(String[] args) throws InterruptedException {
 
         currentDateTime();
-        Data data = new Data();
+        Data data = new Data(callback);
         data.subscribe(observer);
 
         Thread.sleep(4000);
@@ -20,13 +17,16 @@ public class PushWithoutRX  {
         data.add("E");
         currentDateTime();
         data.add("F");
-        currentDateTime();
-        data.add("G");
-        currentDateTime();
-        data.add("H");
 
-        data.unSubscribe(observer);
+        //data.unSubscribe(observer);
     }
+
+    private static Data.Callback callback = new Data.Callback() {
+        @Override
+        public void dataChanged(List data) {
+            iterateOnData(data);
+        }
+    };
 
 
     private interface Observable {
@@ -40,6 +40,14 @@ public class PushWithoutRX  {
     }
 
     private static class Data implements Observable {
+
+        private ArrayList<String> data = new ArrayList<>();
+        private Callback callback;
+
+
+        private interface Callback{
+            void dataChanged(List data);
+        }
 
         private List<Observer> observers = new ArrayList<>();
 
@@ -60,9 +68,10 @@ public class PushWithoutRX  {
             }
         }
 
-        private ArrayList<String> data = new ArrayList<>();
 
-        public Data() {
+
+        public Data(Callback callback) {
+            this.callback = callback;
             data.add("A");
             data.add("B");
             data.add("C");
@@ -72,10 +81,13 @@ public class PushWithoutRX  {
 
         void add(String object) {
             data.add(object);
-            notifyToEveryOne();
+//            notifyToEveryOne();
+            callback.dataChanged(data);
         }
 
     }
+
+    
 
     private static Observer observer = new Observer() {
         @Override

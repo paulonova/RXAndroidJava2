@@ -24,7 +24,6 @@ public class PullApproach {
 
         Thread.sleep(4000);
         currentDateTime();
-
         data.add("E");
         data.add("F");
 

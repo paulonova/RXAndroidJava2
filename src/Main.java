@@ -24,7 +24,7 @@ public class Main {
         // Now A,C and D click subscribe button
 
 
-        Tutorial.REGISTER_FOR_SUBSCRIPTION.subscribe(A);
+        Tutorial.REGISTER_FOR_SUBSCRIPTION.subscribe(A);  //subscribe is from Rx lib.
         Tutorial.REGISTER_FOR_SUBSCRIPTION.subscribe(C);
         Tutorial.REGISTER_FOR_SUBSCRIPTION.subscribe(D);
 
@@ -38,9 +38,9 @@ public class Main {
     }
 
 
-    public static void sendEmail(User user) {
-        System.out.println("Email send: " + user.getName());
-    }
+//    public static void sendEmail(User user) {
+//        System.out.println("Email send: " + user.getName());
+//    }
 
 
 }
