@@ -1,6 +1,6 @@
 package tutorial;
 
-public class User {
+public class io.reactiveJava.User {
 	
 	 	private String name;
 	    private String email;

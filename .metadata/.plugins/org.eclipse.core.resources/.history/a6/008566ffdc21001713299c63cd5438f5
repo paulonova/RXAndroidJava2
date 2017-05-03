@@ -1,5 +1,5 @@
 package tutorial;
 
-public interface Observer {
+public interface io.reactiveJava.Observer {
 
 }

@@ -1,6 +1,6 @@
 package tutorial;
 
-public interface Observer {
+public interface io.reactiveJava.Observer {
 	
 	// New tutorial published
     void notifyMe();

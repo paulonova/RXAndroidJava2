@@ -3,31 +3,31 @@ package tutorial;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tutorial implements Observable {
+public class io.reactiveJava.Tutorial implements io.reactiveJava.Observable {
 	
 	private String authorName;
     private String post;	 
     
-    public static Tutorial REGISTER_FOR_SUBSCRIPTION = new Tutorial();
-    private static List<Tutorial> publishedTutorials = new ArrayList<>();
-    private static List<User> subscribedUsers = new ArrayList<>();
-    private static List<Observer> observers = new ArrayList<>();
+    public static io.reactiveJava.Tutorial REGISTER_FOR_SUBSCRIPTION = new io.reactiveJava.Tutorial();
+    private static List<io.reactiveJava.Tutorial> publishedTutorials = new ArrayList<>();
+    private static List<io.reactiveJava.User> subscribedUsers = new ArrayList<>();
+    private static List<io.reactiveJava.Observer> observers = new ArrayList<>();
     
     
-    public Tutorial() {
+    public io.reactiveJava.Tutorial() {
 	}
     
-	public Tutorial(String authorName, String post) {
+	public io.reactiveJava.Tutorial(String authorName, String post) {
 		this.authorName = authorName;
 		this.post = post;
 	}
 	
 	
-//	public static void addSubscribedUser(User user){
+//	public static void addSubscribedUser(io.reactiveJava.User user){
 //        subscribedUsers.add(user);
 //    }   
 
-	public void publish(Tutorial tutorial){
+	public void publish(io.reactiveJava.Tutorial tutorial){
     	notifyAllAboutChange();
     }
 	
@@ -50,13 +50,13 @@ public class Tutorial implements Observable {
 	
 
 	@Override
-	public void register(Observer observer) {
+	public void register(io.reactiveJava.Observer observer) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void unregister(Observer observer) {
+	public void unregister(io.reactiveJava.Observer observer) {
 		// TODO Auto-generated method stub
 		
 	}

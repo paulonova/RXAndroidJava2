@@ -1,10 +1,10 @@
 package tutorial;
 
-public interface Observable {
+public interface io.reactiveJava.Observable {
 	
-	void register(Observable observer);
+	void register(io.reactiveJava.Observable observer);
 
-	void unregister(Observable observer);
+	void unregister(io.reactiveJava.Observable observer);
 	
 	// New tutorial published to inform all subscribed users
 	 void notifyAllAboutChange();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class User impl {
+public class io.reactiveJava.User impl {
 	
 	 	private String name;
 	    private String email;
@@ -12,17 +12,17 @@ public class User impl {
 	    
 	    
 	    
-	    public User(){
+	    public io.reactiveJava.User(){
 	    	
 	    }	    
 	    
-	    public User(String name, String email) {
+	    public io.reactiveJava.User(String name, String email) {
 			this.name = name;
 			this.email = email;
 		}
 
-		public static void sendEmail(List<User> userList){
-	        for (User user : userList) {
+		public static void sendEmail(List<io.reactiveJava.User> userList){
+	        for (io.reactiveJava.User user : userList) {
 	                System.out.println("Email send: " + user.getName());
 	        }
 	    }

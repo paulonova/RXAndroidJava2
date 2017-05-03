@@ -1,5 +1,5 @@
 package tutorial;
 
-public class User {
+public class io.reactiveJava.User {
 
 }

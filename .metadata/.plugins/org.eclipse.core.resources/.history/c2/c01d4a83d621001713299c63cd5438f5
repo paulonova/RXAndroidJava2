@@ -3,19 +3,19 @@ package tutorial;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tutorial {
+public class io.reactiveJava.Tutorial {
 	
 	private String authorName;
     private String post;	 
     
-    private static List<Tutorial> publishedTutorials = new ArrayList<>();
-    private static List<User> subscribedUsers = new ArrayList<>();
+    private static List<io.reactiveJava.Tutorial> publishedTutorials = new ArrayList<>();
+    private static List<io.reactiveJava.User> subscribedUsers = new ArrayList<>();
     
     
-    public Tutorial() {
+    public io.reactiveJava.Tutorial() {
 	}
     
-	public Tutorial(String authorName, String post) {
+	public io.reactiveJava.Tutorial(String authorName, String post) {
 		this.authorName = authorName;
 		this.post = post;
 	}

@@ -215,9 +215,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:45.469
 !MESSAGE Unhandled event loop exception
@@ -274,9 +274,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:45.484
 !MESSAGE Unhandled event loop exception
@@ -333,9 +333,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:45.488
 !MESSAGE Unhandled event loop exception
@@ -392,9 +392,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:45.505
 !MESSAGE Unhandled event loop exception
@@ -451,9 +451,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:45.508
 !MESSAGE Unhandled event loop exception
@@ -510,9 +510,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.e4.ui.css.swt 4 0 2017-04-15 13:43:51.568
 !MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
@@ -605,9 +605,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:51.651
 !MESSAGE Unhandled event loop exception
@@ -664,9 +664,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:51.666
 !MESSAGE Unhandled event loop exception
@@ -723,9 +723,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.e4.ui.css.swt 4 0 2017-04-15 13:43:53.419
 !MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
@@ -818,9 +818,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:53.503
 !MESSAGE Unhandled event loop exception
@@ -877,9 +877,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.ui 4 0 2017-04-15 13:43:53.518
 !MESSAGE Unhandled event loop exception
@@ -936,9 +936,9 @@ java.lang.IllegalArgumentException: Argument not valid
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.invokeFramework(io.reactiveJava.Main.java:648)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.basicRun(io.reactiveJava.Main.java:603)
+	at org.eclipse.equinox.launcher.io.reactiveJava.Main.run(io.reactiveJava.Main.java:1465)
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2017-04-15 15:59:13.453
 !MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
