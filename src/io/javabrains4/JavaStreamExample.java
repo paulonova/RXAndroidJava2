@@ -1,7 +1,5 @@
 package io.javabrains4;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -13,7 +11,8 @@ public class JavaStreamExample {
 
     public static void main(String[] args) {
 
-        Water water = new Water("water",10, "big stone", 1 , "small stone", 3);
+//        WaterStream water = new WaterStream("water",10, "big stone", 1 , "small stone", 3);
+        WaterStream water = new WaterStream();
 
 
 

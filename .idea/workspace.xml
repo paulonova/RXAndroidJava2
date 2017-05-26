@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4587976b-92d1-4c2d-8586-35731d4d0f0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/higherOrderFunction/HigherOrderFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/javabrains4/StreamExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/javabrains4/StreamToRxObservableExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/javabrains4/Water.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/reactiveJava/LambdaAnonimousFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RXJava2 TUTORIAL/io/reactiveJava/FunctionalLambda$1.class" afterPath="$PROJECT_DIR$/out/production/RXJava2 TUTORIAL/io/reactiveJava/FunctionalLambda$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RXJava2 TUTORIAL/io/reactiveJava/FunctionalLambda.class" afterPath="$PROJECT_DIR$/out/production/RXJava2 TUTORIAL/io/reactiveJava/FunctionalLambda.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_netflix_rxjava_rxjava_android_0_19_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_netflix_rxjava_rxjava_android_0_19_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_netflix_rxjava_rxjava_core_0_19_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_netflix_rxjava_rxjava_core_0_19_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/javabrains4/WaterStream.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/io/javabrains4/Water.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/reactiveJava/FunctionalLambda.java" afterPath="$PROJECT_DIR$/src/io/reactiveJava/FunctionalLambda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ANDROID_APP/MyRXAndroid/app/src/main/java/se/paulo/myrxandroid/MainActivity.java" afterPath="$PROJECT_DIR$/ANDROID_APP/MyRXAndroid/app/src/main/java/se/paulo/myrxandroid/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ANDROID_APP/MyRXAndroid/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/ANDROID_APP/MyRXAndroid/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java" afterPath="$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +26,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StreamToRxObservableExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StreamToRxObservableExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/javabrains4/StreamToRxObservableExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="510">
+              <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaStreamExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaterStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/javabrains4/WaterStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,10 +131,11 @@
         <option value="C:/Program Files/Java/jdk1.8.0_111/jre/lib/jce.jar!/javax/crypto/spec/SecretKeySpec.class" />
         <option value="$PROJECT_DIR$/src/io/reactiveJava/StreamToRxObservableExample.java" />
         <option value="$PROJECT_DIR$/src/io/higherOrderFunction/HigherOrderFunction.java" />
-        <option value="$PROJECT_DIR$/src/io/javabrains4/Water.java" />
         <option value="$PROJECT_DIR$/src/io/javabrains4/StreamExample.java" />
-        <option value="$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java" />
         <option value="$PROJECT_DIR$/src/io/javabrains4/StreamToRxObservableExample.java" />
+        <option value="$PROJECT_DIR$/src/io/javabrains4/Water.java" />
+        <option value="$PROJECT_DIR$/src/io/javabrains4/WaterStream.java" />
+        <option value="$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java" />
       </list>
     </option>
   </component>
@@ -158,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ANDROID RXJava2 TUTORIAL" />
+              <option name="myItemId" value="RXJava2TUTORIAL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -168,7 +182,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ANDROID RXJava2 TUTORIAL" />
+              <option name="myItemId" value="RXJava2TUTORIAL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -177,28 +191,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RXJava2 TUTORIAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ANDROID RXJava2 TUTORIAL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javabrains4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,7 +519,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -535,11 +526,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26532888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26532888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -864,24 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/javabrains4/Water.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/reactiveJava/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -894,11 +871,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/javabrains4/StreamToRxObservableExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="510">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/javabrains4/WaterStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/javabrains4/JavaStreamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
