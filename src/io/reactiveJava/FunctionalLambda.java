@@ -22,9 +22,6 @@ public class FunctionalLambda {
                 Observable.from(array)
                         .map(integer -> integer + 1)
                         .subscribe(integer -> {});
-
-
-
             }
         }).start();
 
@@ -39,7 +36,7 @@ public class FunctionalLambda {
     }
 
 
-    public static int square(int a){
+    private static int square(int a){
         return a*a;
     }
 
